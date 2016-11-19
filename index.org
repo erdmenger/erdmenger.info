@@ -1,0 +1,29 @@
+#+TITLE: Joerg Erdmenger
+#+AUTHOR: <PRESS SPACE>
+#+CATEGORY: CV
+
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
+#+OPTIONS: reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: reveal_slide_number:nil
+#+REVEAL_TRANS: cube
+#+REVEAL_THEME: white
+#+OPTIONS: toc:nil
+#+OPTIONS: reveal_title_slide:nil
+
+#+REVEAL_EXTRA_CSS: ./local.css
+
+* Joerg Erdmenger
+:PROPERTIES:
+:reveal_background: ./je-files/20070631-Joerg--1900x1200.jpg
+:reveal_background_trans: slide
+:END:
+Is software developer and development manager at [[http://IBM.com][IBM]] in Boeblingen near Stuttgart, Germany. Working in IBMs Cloud Software development team. In my private live I'm a father of three kids, husband, enthusiast about all kinds of sports such as Volleyball, biking, swimming and live the universe and everything.
+
+- Projects: Allways something next to my family.
+  [[http://WellnessOase-Waldenbuch.de][WellnessOase-Waldenbuch.de]] is just the latest one.
+- On the web: I'm just starting this page. 
+  Meanwhile you find some traces at different places in the net like:
+  - [[https://twitter.com/ErdmengerJoerg][Twitter @ErdmengerJoerg]] 
+  - connect on [[http://www.linkedin.com/profile/view?id=5145582&trk=nav_responsive_tab_profile_pic][LinkedIn]]  or [[http://www.linkedin.com/profile/view?id=5145582&trk=nav_responsive_tab_profile_pic][Xing]]
+  - [[https://www.ibm.com/developerworks/community/profiles/html/profileView.do?userid=100000AHDG&lang=en][developerWorks.com]]
