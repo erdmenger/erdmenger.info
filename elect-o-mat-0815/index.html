@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Elect-o-mat 0815</title>
+    <script>
+                         
+      function replaceNames() {
+          this.setAttribute( "value", "Trump" );
+          otherButton = document.getElementById( this.getAttribute( "otherButton" ) );
+          otherButton.setAttribute( "value", "Clinton" );
+      }
+
+      function elect() {
+          var divOne = document.getElementById( "div2" );
+          var textNode = document.createTextNode( "You choose " + this.getAttribute( "value" ) + " for president.\n") ;
+          divOne.appendChild( textNode );
+      }
+      
+      function doFancyStuff() {
+          button1 = document.getElementById( "btn1" );
+          button2 = document.getElementById( "btn2" );
+          button1.setAttribute( "otherButton", "btn2" );
+          button2.setAttribute( "otherButton", "btn1" );
+          button1.onmouseover = replaceNames;
+          button1.onclick = elect;
+          button2.onmouseover = replaceNames;
+          button2.onclick = elect;
+      }
+
+      window.onload = doFancyStuff;
+
+</script>
+
+</head>
+
+<body>
+    <h1>Elect-o-mat prototype 0815 alpha 1.</h1>
+
+    <p> Please make your selection. Click the button with your
+      candidates name.</p>
+
+    <div id="div1" title="Make your choice.">
+      
+      <input id="btn1" value="Trump" type="button" />
+      <input id="btn2" value="Clinton" type="button" />
+    </div>
+
+    <div id="div2" title="Your Choice:">
+           <p id="p1"> </p>
+    </div>
+
+  
+</body>
+</html>
